@@ -1,0 +1,110 @@
+{
+  "_from": "webex@^1.82.2",
+  "_id": "webex@1.82.2",
+  "_inBundle": false,
+  "_integrity": "sha512-G/EEmOT9yIJziIgKKT+Qupi2ZbWc3mgU2YGoSvY/cW7eKu1cl9H16npAZxJNzr+TeaQ1UK5f9c0rTS9L63bGJg==",
+  "_location": "/webex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "webex@^1.82.2",
+    "name": "webex",
+    "escapedName": "webex",
+    "rawSpec": "^1.82.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.82.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/webex/-/webex-1.82.2.tgz",
+  "_shasum": "843b50f7b7f779ddfa4f9229433eeec50c55451e",
+  "_spec": "webex@^1.82.2",
+  "_where": "C:\\Users\\tkruczek\\Documents\\_projects\\_ec\\news-bot-admin-backend",
+  "browser": {
+    "./dist/config-storage.js": "./dist/config-storage.shim.js",
+    "./src/config-storage.js": "./src/config-storage.shim.js"
+  },
+  "browserify": {
+    "transform": [
+      "envify"
+    ]
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Adam Weeks",
+      "email": "adweeks@cisco.com",
+      "url": "https://adamweeks.com/"
+    },
+    {
+      "name": "Andrew Holsted",
+      "email": "holsted@cisco.com"
+    },
+    {
+      "name": "Arun Ganeshan",
+      "email": "arungane@cisco.com"
+    },
+    {
+      "name": "Christopher DuBois",
+      "email": "chdubois@cisco.com",
+      "url": "https://chrisadubois.github.io/"
+    },
+    {
+      "name": "Ian W. Remmel",
+      "url": "https://www.ianwremmel.com"
+    },
+    {
+      "name": "Matt Norris",
+      "email": "matnorri@cisco.com",
+      "url": "http://mattnorris.me"
+    },
+    {
+      "name": "Moriah Maney",
+      "email": "momaney@cisco.com"
+    },
+    {
+      "name": "Taymoor Khan",
+      "email": "taykhan@cisco.com"
+    }
+  ],
+  "dependencies": {
+    "@webex/internal-plugin-calendar": "1.82.2",
+    "@webex/internal-plugin-device": "1.82.2",
+    "@webex/internal-plugin-presence": "1.82.2",
+    "@webex/internal-plugin-support": "1.82.2",
+    "@webex/plugin-attachment-actions": "1.82.2",
+    "@webex/plugin-authorization": "1.82.2",
+    "@webex/plugin-device-manager": "1.82.2",
+    "@webex/plugin-logger": "1.82.2",
+    "@webex/plugin-meetings": "1.82.2",
+    "@webex/plugin-memberships": "1.82.2",
+    "@webex/plugin-messages": "1.82.2",
+    "@webex/plugin-people": "1.82.2",
+    "@webex/plugin-rooms": "1.82.2",
+    "@webex/plugin-team-memberships": "1.82.2",
+    "@webex/plugin-teams": "1.82.2",
+    "@webex/plugin-webhooks": "1.82.2",
+    "@webex/storage-adapter-local-storage": "1.82.2",
+    "@webex/webex-core": "1.82.2",
+    "@babel/polyfill": "^7.10.4",
+    "envify": "^4.1.0",
+    "lodash": "^4.17.15"
+  },
+  "deprecated": false,
+  "description": "SDK for Cisco Webex",
+  "devMain": "src/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "webex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webex/webex-js-sdk/tree/master/packages/node_modules/webex"
+  },
+  "version": "1.82.2"
+}
